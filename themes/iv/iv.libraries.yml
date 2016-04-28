@@ -1,0 +1,23 @@
+global:
+  version: 1.x
+  css:
+    base:
+      css/style.css: {}
+  js:
+      #js/
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+
+development:
+  version: 1.x
+  css:
+    base:
+      css/style.css: {}
+  js:
+      #js/
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once

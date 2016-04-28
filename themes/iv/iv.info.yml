@@ -1,0 +1,23 @@
+name: MadYouth
+type: theme
+description: Drupal 8 responsive theme for Image/Video Gallery website (extends ZURB Foundation theme)
+core: 8.x
+base theme: zurb_foundation
+version: '1.x'
+
+#asset library to include css and js
+libraries:
+  - iv/global
+
+# Image appears on admin/appearance
+screenshot: images/screenshot.jpg
+
+
+#Regions
+regions:
+  meta_header: Meta Header
+  header: Header
+  highlighted: Highlighted
+  content: Content
+  footer: Footer
+
